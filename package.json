@@ -1,0 +1,35 @@
+{
+  "name": "laravel-mix-image-resizer",
+  "version": "0.0.8",
+  "description": "Create resized images",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryotamoriyama/laravel-mix-image-resizer.git"
+  },
+  "keywords": [
+    "laravel-mix"
+  ],
+  "author": "Ryota Moriyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryotamoriyama/laravel-mix-image-resizer/issues"
+  },
+  "homepage": "https://github.com/ryotamoriyama/laravel-mix-image-resizer#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.6",
+    "image-size": "^0.8.3",
+    "imagemin": "^7.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-webp": "^5.1.0",
+    "path": "^0.12.7",
+    "sharp": "^0.24.0"
+  },
+  "devDependencies": {
+    "laravel-mix": "^5.0.1"
+  }
+}
