@@ -5,18 +5,18 @@
 First, install the extension.
 
 ```
-npm install laravel-mix-image-resizer --save-dev
+npm install laravel-mix-webp --save-dev
 ```
 
-Then, add `ImageResizer` function on `webpack.mix.js`. like so:
+Then, add `ImageWebp` function on `webpack.mix.js`. like so:
 
 ```js
 let mix = require('laravel-mix')
 
-require('laravel-mix-image-size-checker')
+require('laravel-mix-webp')
 
 mix
-  .ImageSizeResizer({
+  .ImageWebp({
     from: 'resources/assets/images',
     to: 'public/assets/images',
   })
@@ -27,26 +27,13 @@ mix
 ### Default
 ```
 {
-    disable: false,
-    from: 'resources',
-    to: 'public',
-    sizes: [
-        414,
-        768,
-        828,
-        1024,
-        1280,
-        1536,
-        1600
-    ],
-    webp: true,
-    imageminPngquantOptions: {
-        quality: [0.3, 0.5]
-    },
-    imageminWebpOptions: {
-        quality: 50
-    },
-}
+     disable: false,
+     from: 'resources',
+     to: 'public',
+     imageminWebpOptions: {
+         quality: 50
+     },
+ }
 
 ```
 ### Only runs on production build

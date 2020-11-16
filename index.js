@@ -32,7 +32,7 @@ class ImageWebp {
 
             let {root, dir, base, ext, name} = path.parse(imagePath)
             imagemin([imagePath], {
-                destination: dir,
+                destination: dir.replace(from,to),
                 plugins: [
                     imageminWebp(imageminWebpOptions)
                 ],
