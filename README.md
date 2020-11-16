@@ -1,4 +1,4 @@
-# Laravel Mix Image Resizer
+# Laravel Mix Webp
 
 ## Usage
 
