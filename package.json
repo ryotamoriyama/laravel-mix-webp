@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-webp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create webp",
   "main": "index.js",
   "scripts": {},
@@ -24,6 +24,6 @@
     "imagemin-webp": "^5.1.0"
   },
   "devDependencies": {
-    "laravel-mix": "^5.0.1"
+    "laravel-mix": "^6.0.31"
   }
 }
