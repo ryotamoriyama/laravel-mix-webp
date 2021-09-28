@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-webp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Create webp",
   "main": "index.js",
   "scripts": {},
